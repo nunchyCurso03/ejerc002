@@ -2,6 +2,7 @@ package es.santander.ascender.ejerc002.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import es.santander.ascender.ejerc002.model.ColumnaArquitectonica;
@@ -34,6 +35,8 @@ public class ColumnaArquitectonicaService {
      * servicio.
      */
 
+     
+    @Autowired
     private ColumnaArquitectonicaRepository repository; // representa las operaciones que puedo reañizar sobre la tabla
                                                         // en esa
                                                         // base de datos. Lleva la lógica de jpa

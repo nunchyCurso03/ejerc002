@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import es.santander.ascender.ejerc002.model.Dato;
-import es.santander.ascender.ejerc002.repository.DatoRepository;
 
 @SpringBootTest
 public class DatoRepositoryTests {
